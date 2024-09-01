@@ -1,0 +1,57 @@
+@media (max-width: 1199px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .logo img {
+        width: 30px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-block {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    a.footer-github {
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    a.footer-github img {
+        width: 30px;
+    }
+
+    a.footer-github span {
+        margin-left: 10px;
+    }
+
+    .footer-block:last-child {
+        justify-content: center;
+    }
+
+    a.footer-rss img {
+        width: 70px;
+    }
+
+    .warning-message {
+        max-width: 80vw;
+    }
+
+    .button.warning-button {
+        flex-direction: column;
+    }
+
+    .button.warning-button a.button-link {
+        margin: 2rem 0;
+    }
+        
+}

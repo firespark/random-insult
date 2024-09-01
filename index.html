@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Random insult site">
+    <meta name="keywords" content="">
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Random Insult</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-container">
+                <div class="logo" data-animal="main">
+                    <img src="img/logo.png" alt="">
+                    <div class="logo-text">Random Insult</div>
+                </div>
+                <nav class="language">
+                    <ul class="nav-menu">
+                        <li class="nav-link active" data-lang="en">En</li>
+                        <li class="nav-link" data-lang="ru">Ru</li>
+                    </ul>
+                </nav>
+                
+            </div>
+            
+        </div>
+        
+
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="content">
+                <h1>Random Insult</h1>
+                <h2>🔞! 18+ ONLY !🔞</h2>
+            </div>
+
+            <div class="insult-area"></div>
+
+            <div class="button insult-button-block">
+                <button class="hidden" id="generate-insult">Generate new insult</button>
+            </div>
+
+            <div class="content bottom-content">
+                <p>This site uses 3 APIs:</p>
+                <p><a href="https://thispersondoesnotexist.com" target="_blank">https://thispersondoesnotexist.com</a> - generates random face (no existing person).</p>
+                <p><a href="https://evilinsult.com" target="_blank">https://evilinsult.com</a> - generates random insult.</p>
+                <p><a href="https://randomuser.me" target="_blank">https://randomuser.me</a> - generates random fake name.</p>
+                <p>This site also tries to censor Russian quotes to reduce profanity. However this method is not perfect, so proceed at your own risk. Creator of this web page doesn't condone any generated quote, nor recommends using these insults in public unless you are planning on visiting your long-dead parrot in Heaven.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-block">
+                    <a class="footer-github" href="https://github.com/firespark" target="_blank">
+                        <img src="img/github.svg" alt="">
+                        <span>https://github.com/firespark</span>
+                    </a>
+                </div>
+                <div class="footer-block">
+                    <span id="year"></span>
+                </div>
+                
+                <div class="footer-block">
+                    <a class="footer-rss" href="https://rs.school/" target="_blank">
+                        <img src="img/rss.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <div class="warning-overlay hidden">
+        
+            <div class="warning-message">
+                <div class="content">
+                    <h2>🔞 WARNING! You must be at least 18 years old! 🔞</h2>
+                    <p>This site uses 3 APIs:</p>
+                    <p><a href="https://thispersondoesnotexist.com" target="_blank">https://thispersondoesnotexist.com</a> - generates random face (no existing person).</p>
+                    <p><a href="https://evilinsult.com" target="_blank">https://evilinsult.com</a> - generates random insult.</p>
+                    <p><a href="https://randomuser.me" target="_blank">https://randomuser.me</a> - generates random fake name.</p>
+                    <p>This site also tries to censor Russian quotes to reduce profanity. However this method is not perfect, so proceed at your own risk. Creator of this web page doesn't condone any generated quote, nor recommends using these insults in public unless you are planning on visiting your long-dead parrot in Heaven.</p>
+                    <div class="button warning-button">
+                        <button id="warning-button">I confirm I'm 18 years old</button>
+                        <a class="button-link" href="https://newcp.net/" target="_blank">I'm not old enough👶</a>
+                    </div>
+                </div>
+    
+            </div>
+        
+        
+    </div>
+    
+
+
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>
